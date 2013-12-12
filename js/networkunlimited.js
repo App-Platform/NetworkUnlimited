@@ -1119,3 +1119,21 @@ $(function() {
         }
     });
 });     
+<!-- Email Referrals Rosedale 8 -->
+$(function() {
+    $( "#Rosedale8" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Rosedale8.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
