@@ -27,7 +27,7 @@
 <script type="text/javascript" src="js/jquery.pwi.js"></script>
 <script type="text/javascript" src="js/app-platform.js"></script>
 <script type="text/javascript" src="js/networkunlimited.js"></script>
-                
+
 <!-- Add PhoneGap -->
 <script type="text/javascript" src="phonegap.js"></script>
 
@@ -115,12 +115,13 @@
         <a href="#prudential" data-icon="info" data-role="button" data-transition="slidedown">Prudential</a>
         <a href="#stayinalive" data-icon="info" data-role="button" data-transition="slidedown">StayinAlive CPR</a>
         <a href="#corporate1st" data-icon="info" data-role="button" data-transition="slidedown">Corporate 1st Impression</a>
-        <a href="#northface" data-icon="info" data-role="button" data-transition="slidedown">North Face</a>
         <a href="#minuteman" data-icon="info" data-role="button" data-transition="slidedown">Minuteman Press</a>
         <a href="#mortgageresults" data-icon="info" data-role="button" data-transition="slidedown">Mortgage Results</a>
         <a href="#associatedbank" data-icon="info" data-role="button" data-transition="slidedown">Associated Bank</a>
-        <a href="#shirtwerks" data-icon="info" data-role="button" data-transition="slidedown">Shirtwerks</a>
         <a href="#bulldog" data-icon="info" data-role="button" data-transition="slidedown">Bulldog Contractors LLC</a>
+        <a href="#aihu" data-icon="info" data-role="button" data-transition="slidedown">Aihu</a>
+        <a href="#peterson" data-icon="info" data-role="button" data-transition="slidedown">Peterson Photo &amp; Graphics</a>
+        <a href="#app" data-icon="info" data-role="button" data-transition="slidedown">App Platform</a>
         </div> 
         <!-- /Eagan Chapter -->
         
@@ -133,15 +134,15 @@
         11670 Fountains Drive, Suite 200. Maple Grove, MN 55369</p>
         <a data-role="button" data-icon="home" target="_blank" onClick="window.open('https://www.google.com/maps/preview#!q=11664+Fountains+Dr%2C+Maple+Grove%2C+MN+55369&data=!4m15!2m14!1m13!1s0x52b337f75786c25d%3A0x7064b0c8b8c7aa27!3m8!1m3!1d3253!2d-93.4263722!3d45.0918603!3m2!1i1211!2i887!4f13.1!4m2!3d45.0940803!4d-93.4265', '_system', 'location=yes');">Map</a>
         <p><strong>Members</strong></p>
-        <a href="#kellerwilliams" data-icon="info" data-role="button" data-transition="slidedown">Keller Williams</a>
-        <a href="#evolv" data-icon="info" data-role="button" data-transition="slidedown">Evolv</a>
         <a href="#nova" data-icon="info" data-role="button" data-transition="slidedown">Nova Communications</a>
         <a href="#libertytitle2" data-icon="info" data-role="button" data-transition="slidedown">Liberty Title</a>
         <a href="#kalmoe" data-icon="info" data-role="button" data-transition="slidedown">Kalmoe CPA</a>
         <a href="#mastercomm" data-icon="info" data-role="button" data-transition="slidedown">Master Communications</a>
         <a href="#regus2" data-icon="info" data-role="button" data-transition="slidedown">Regus</a>
-        <a href="#countryfinancial" data-icon="info" data-role="button" data-transition="slidedown">Country Financial</a>
         <a href="#corporate1st" data-icon="info" data-role="button" data-transition="slidedown">Corporate 1st Impression</a>
+        <a href="#enlightened" data-icon="info" data-role="button" data-transition="slidedown">Enlightened Design</a>
+        <a href="#holms" data-icon="info" data-role="button" data-transition="slidedown">Holms Law Firm</a>
+        <a href="#app" data-icon="info" data-role="button" data-transition="slidedown">App Platform</a>
         </div> 
         <!-- /Maple Grove Chapter -->
         
@@ -172,6 +173,7 @@
         <a href="#depthcomm" data-icon="info" data-role="button" data-transition="slidedown">Depth Communications</a>
         <a href="#officeteam" data-icon="info" data-role="button" data-transition="slidedown">Office Team</a>
         <a href="#advacare" data-icon="info" data-role="button" data-transition="slidedown">AdvaCare Clinics</a>
+        <a href="#app" data-icon="info" data-role="button" data-transition="slidedown">App Platform</a>
         </div> 
         <!-- /Northland Chapter -->
         
@@ -192,62 +194,15 @@
         <a href="#perfectcircle" data-icon="info" data-role="button" data-transition="slidedown">Perfect Circle Creative</a>
         <a href="#stearns" data-icon="info" data-role="button" data-transition="slidedown">Stearns Lending Inc.</a>
         <a href="#offsitebackups" data-icon="info" data-role="button" data-transition="slidedown">Offsite Backups</a>
+        <a href="#qualityIns" data-icon="info" data-role="button" data-transition="slidedown">Quality Insurance Service</a>
+        <a href="#johnston" data-icon="info" data-role="button" data-transition="slidedown">johnston | martineau</a>
+        <a href="#app" data-icon="info" data-role="button" data-transition="slidedown">App Platform</a>
         </div> 
         <!-- /Rosedale Chapter -->
         
-        <br />       
-        <div data-role="collapsible" data-collapsed="true">
-        <h2>App Platform</h2> 
-        
-        <!-- Email referral -->
-        <a id="emailRefBtn" href="" target="_blank" data-role="button" data-icon="email">Email Referral</a>
-        <form id="emailReferral" class="emailReferral" method="post" data-ajax="false" style="display:none; padding-left:10px; padding-right:10px; padding-bottom:20px;">
-        <div data-role="fieldcontain" class="ui-hide-label">
-          <label for="Email">Referral Email</label>
-          <input type="text" name="Email" id="Email" value="" placeholder="Referral Email" class="required email" data-mini="true" />
-        </div>
-        <div data-role="fieldcontain" class="ui-hide-label">
-          <label for="Name">Your Name</label>
-          <input type="text" name="Name" id="Name" value="" placeholder="Your Name" data-mini="true" class="required" />
-        </div>
-        <label for="Message"><span class="smallText">Message (optional)</span></label>
-        <textarea name="Message" id="Message" style="background:#ffffff;" data-mini="true"></textarea>
-        
-        <div data-role="controlgroup" data-type="horizontal" style="margin-left:-10px;">
-        <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-theme="a" data-icon="check" />
-        <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-theme="a" data-icon="alert">Help</a>
-        <a id="emailRefReset" href="" data-role="button" data-inline="true" data-mini="true" data-theme="a" data-icon="delete">Clear</a>
-        </div>
-        </form><!-- /email referral -->
-        
-        <!-- Get the App-Platform app -->
-        <a id="sendAppBtn2" href="" target="_blank" data-role="button" data-icon="email">Get the App-Platform app</a>
-        <form id="sendApp2" class="sendApp" method="post" data-ajax="false" style="display:none; padding-left:10px; padding-right:10px; padding-bottom:20px;">
-        <div data-role="fieldcontain" class="ui-hide-label">
-          <label for="Email">Email</label>
-          <input type="text" name="Email" id="Email" value="" placeholder="Email" class="required email" data-mini="true" />
-        </div>
-        <div data-role="fieldcontain" class="ui-hide-label">
-          <label for="Name">Your Name</label>
-          <input type="text" name="Name" id="Name" value="" placeholder="Your Name" data-mini="true" class="required" />
-        </div>
-        
-        <div data-role="controlgroup" data-type="horizontal" style="margin-left:-10px;">
-        <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-theme="a" data-icon="check" />
-        <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-theme="a" data-icon="alert">Help</a>
-        <a id="sendAppReset2" href="" data-role="button" data-inline="true" data-mini="true" data-theme="a" data-icon="delete">Clear</a>
-        </div>
-        </form><!-- /send this app -->
-        
-        <p><strong>Contact</strong></p>
-        <p>Jim Hunkins, Partner</p>
-        <a href="tel:6123842433" data-role="button" data-icon="phone">(612) 384-2433</a>
-        <a href="tel:8885590902" data-role="button" data-icon="phone">(888) 559-0902</a>
-        <a href="mailto:jim@app-platform.net" target="_blank" data-role="button" data-icon="email">jim@app-platform.net</a>
-        <a data-role="button" data-icon="home" target="_blank" onClick="window.open('http://app-platform.net', '_system', 'location=yes');">www.app-platform.net</a>
-        <a data-role="button" data-icon="facebook" target="_blank" onClick="window.open('http://www.facebook.com/AppPlatformnet', '_system', 'location=yes');">facebook</a>
-        <a data-role="button" data-icon="linkedin" target="_blank" onClick="window.open('http://www.linkedin.com/company/2779772', '_system', 'location=yes');">linkedIn</a>
-        </div> 
+        <br />   
+            
+        <a href="#app" data-icon="info" data-role="button" data-transition="slidedown">App Platform</a>
 
 	</div><!-- /block b -->       
 </div><!-- /container -->     
@@ -276,6 +231,88 @@
    </div>
 </div><!-- /footer -->
 </div><!-- /home -->
+
+
+<!-- App Platform -->
+<div data-role="page" data-theme="a" id="app"> 
+  <div data-role="header" data-theme="a" class="center">
+    <img src="img/logo.png" alt="logo">
+    <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
+  </div>
+  
+<div data-role="content">
+    <!-- Help Popup-->
+    <div data-role="popup" id="help" data-overlay-theme="b" data-theme="a" style="max-width:500px;" class="ui-corner-all help">
+        <div data-role="header" data-theme="a" class="center">
+            <img src="img/logo2.png" alt="logo">
+        </div>
+        <div data-role="content" class="help">	
+            <h2>How does this work?</h2>
+            <p><strong>Send a referral</strong><br>
+            Tap the &quot;Email Referral&quot; button and enter the email address of the person you want to refer into the &quot;Referral Email&quot; field, enter your name into the &quot;Your Name&quot; field and if you would like to include any other information enter it into the &quot;Message&quot; field. Once you are done tap the &quot;Submit&quot; button and an email will be sent to the email address provided. An email alert will also be sent to 
+            <!---->Network Unlimited for tracking purposes.</p>
+            <p><strong>Send this app</strong><br>
+            Tap the &quot;Send this app&quot; button and enter the email address of the person you want to send the app into the &quot;Email&quot; field and enter your name into the &quot;Your Name&quot; field. Once you are done tap the &quot;Submit&quot; button and an email will a link to the apps Landing Page be sent to the email address provided. An email alert will also be sent to 
+            <!---->Network Unlimited for tracking purposes.</p>
+    		<p><strong>Get Your Own App</strong><br>
+   		    Tap the &quot;Get your own app!&quot; button and enter the email address of the person interested in getting more information about apps from App-Platform.net in the &quot;Email&quot; field. Once you are done tap the &quot;Submit&quot; button and a representative of App-Platform.net will be in touch.</p>
+        </div>
+        <div data-role="footer" class="center">
+            <a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="delete" style="margin-top:10px; margin-bottom:10px;">Close Window</a>
+        </div>
+    </div><!-- /help popup -->
+
+<div class="container_12">
+    <h2>App Platform<br />
+    <strong class="smallText">Smart Phone Apps</strong></h2>
+    <p>Jim Hunkins, Partner</p>
+    <div class="grid_6 ui-block960-a">
+    <a href="tel:6123842433" data-role="button" data-icon="phone">612-384-2433</a>
+    <a href="tel:8885590902" data-role="button" data-icon="phone">888-559-0902</a>
+    <a href="mailto:jim@app-platform.net" target="_blank" data-role="button" data-icon="email">jim@app-platform.net</a>
+    <a data-role="button" data-icon="home" target="_blank" onClick="window.open('http://app-platform.net', '_system', 'location=yes');">www.app-platform.net</a>
+    <a data-role="button" data-icon="facebook" target="_blank" onClick="window.open('http://www.facebook.com/AppPlatformnet', '_system', 'location=yes');">facebook</a>
+    <a data-role="button" data-icon="linkedin" target="_blank" onClick="window.open('http://www.linkedin.com/company/2779772', '_system', 'location=yes');">linkedIn</a>
+    <br />
+    </div><!-- /block a -->
+    <div class="grid_6 ui-block960-b">
+    <!-- Email referral -->
+    <a id="emailRefBtn" href="" target="_blank" data-role="button" data-icon="email">Email Referral</a>
+    <form id="emailReferral" class="emailReferral" method="post" data-ajax="false" style="display:none; padding-left:10px; padding-right:10px; padding-bottom:20px;">
+    <div data-role="fieldcontain" class="ui-hide-label">
+      <label for="Email">Referral Email</label>
+      <input type="text" name="Email" id="Email" value="" placeholder="Referral Email" class="required email" data-mini="true" />
+    </div>
+    <div data-role="fieldcontain" class="ui-hide-label">
+      <label for="Name">Your Name</label>
+      <input type="text" name="Name" id="Name" value="" placeholder="Your Name" data-mini="true" class="required" />
+    </div>
+    <label for="Message"><span class="smallText">Message (optional)</span></label>
+    <textarea name="Message" id="Message" style="background:#ffffff;" data-mini="true"></textarea>
+    
+    <div data-role="controlgroup" data-type="horizontal" style="margin-left:-10px;">
+    <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-theme="a" data-icon="check" />
+    <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-theme="a" data-icon="alert">Help</a>
+    <a id="emailRefReset" href="" data-role="button" data-inline="true" data-mini="true" data-theme="a" data-icon="delete">Clear</a>
+    </div>
+    </form><!-- /email referral -->
+    <a data-role="button" data-icon="info" target="_blank" onClick="window.open('http://app.app-platform.net', '_system', 'location=yes');">Get our app!</a>
+    </div><!-- /block b -->
+    
+	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
+</div><!-- /container -->
+</div><!-- /content -->  
+
+<div data-role="footer" data-theme="a">
+    <div class="footerText">
+        <p><script>
+            copyright=new Date(); update=copyright.getFullYear(); document.write("&nbsp;Copyright &copy; "+ update + " Network Unlimited");
+        </script></p>
+    </div>
+</div><!-- /footer -->
+</div><!-- /page -->
+
+
 
 
 <!-- Eagan Chapter -->
@@ -928,8 +965,8 @@
 
 
 
-<!-- North Face -->
-<div data-role="page" data-theme="a" id="northface"> 
+<!-- Aihu -->
+<div data-role="page" data-theme="a" id="aihu"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
     <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
@@ -959,13 +996,13 @@
 
 <div class="container_12">
     <div class="grid_6 ui-block960-a">
-    <h2>North Face<br />
+    <h2>Aihu<br />
     <strong class="smallText">Outfitter</strong></h2>
 	<p>
-    Colin Madson
+    Natural Products
     </p>
-    <a href="tel:952-446-3309" data-role="button" data-icon="phone">952-446-3309</a>
-    <a href="mailto:Cmadson22@yahoo.com" target="_blank" data-role="button" data-icon="email">Cmadson22@yahoo.com</a>
+    <a href="tel:651-688-7810" data-role="button" data-icon="phone">651-688-7810</a>
+    <a href="mailto:tmkennedy@aol.com" target="_blank" data-role="button" data-icon="email">tmkennedy@aol.com</a>
     <br />
     
     <!-- Email referral -->
@@ -1254,8 +1291,8 @@
 
 
 
-<!-- Shirtwerks -->
-<div data-role="page" data-theme="a" id="shirtwerks"> 
+<!-- Peterson Photo & Graphics -->
+<div data-role="page" data-theme="a" id="peterson"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
     <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
@@ -1285,13 +1322,13 @@
 
 <div class="container_12">
     <div class="grid_6 ui-block960-a">
-    <h2>Shirtwerks<br />
+    <h2>Peterson Photo &amp; Graphics<br />
     <strong class="smallText">Promotional Items</strong></h2>
 	<p>
-    Cari Spears
+    Kerry Peterson
     </p>
-    <a href="tel:651-686-6343" data-role="button" data-icon="phone">651-686-6343</a>
-    <a href="mailto:cari@shirtwerks.com" target="_blank" data-role="button" data-icon="email">cari@shirtwerks.com</a>
+    <a href="tel:651-470-0265" data-role="button" data-icon="phone">651-470-0265</a>
+    <a href="mailto:kerry@petersonphotographic.com" target="_blank" data-role="button" data-icon="email">kerry@petersonphotographic.com</a>
     <br />
     
     <!-- Email referral -->
@@ -1402,6 +1439,8 @@
     </div>
     </form><!-- /email referral -->
     
+    <a data-role="button" data-icon="info" target="_blank" onClick="window.open('http://jameygsales.app-platform.net', '_system', 'location=yes');">Get my app!</a>
+    
 	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
     </div><!-- /block a -->
 </div><!-- /container -->
@@ -1419,8 +1458,8 @@
 <!-- /Eagan Chapter -->
 <!-- Maple Grove Chapter -->
 
-<!-- Unused -->
-<div data-role="page" data-theme="a" id="waterstone"> 
+<!-- Enlightened Design -->
+<div data-role="page" data-theme="a" id="enlightened"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
     <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
@@ -1451,13 +1490,13 @@
 <div class="container_12">
     <div class="grid_6 ui-block960-a">
 	
-    <h2>Waterstone Mortgage<br />
-    <strong class="smallText">Mortgage Planner</strong></h2>
+    <h2>Enlightened Design<br />
+    <strong class="smallText">Graphic Design</strong></h2>
     <p>
-    Tonya Sample
+    Larry Skov
     </p>
-    <a href="tel:763-213-2195" data-role="button" data-icon="phone">763-213-2195</a>
-    <a href="mailto:tsample@waterstonemortgage.com" target="_blank" data-role="button" data-icon="email">tsample@waterstonemortgage.com</a>
+    <a href="tel:612-598-0753" data-role="button" data-icon="phone">612-598-0753</a>
+    <a href="mailto:larryskov@comcast.net" target="_blank" data-role="button" data-icon="email">larryskov@comcast.net</a>
 	<br />
 	
     <!-- Email referral -->
@@ -1501,8 +1540,8 @@
 
 
 
-<!-- Keller Williams -->
-<div data-role="page" data-theme="a" id="kellerwilliams"> 
+<!-- Holms Law Firm -->
+<div data-role="page" data-theme="a" id="holms"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
     <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
@@ -1532,13 +1571,13 @@
 
 <div class="container_12">
     <div class="grid_6 ui-block960-a">
-    <h2>Keller Williams<br />
-    <strong class="smallText">Realtor</strong></h2>
+    <h2>Holms Law Firm<br />
+    <strong class="smallText">Attorney</strong></h2>
 	<p>
-    Tammy Chevalier
+    Kimberly Slay-Holms
     </p>
-    <a href="tel:612-850-0866" data-role="button" data-icon="phone">612-850-0866</a>
-    <a href="mailto:myhometeam@kw.com" target="_blank" data-role="button" data-icon="email">myhometeam@kw.com</a>
+    <a href="tel:763-553-2000" data-role="button" data-icon="phone">763-553-2000</a>
+    <a href="mailto:kholms@holmslawfirm.com" target="_blank" data-role="button" data-icon="email">kholms@holmslawfirm.com</a>
 	<br />
     
     <!-- Email referral -->
@@ -1582,7 +1621,7 @@
 
 
 
-<!-- Evolv -->
+<!-- Unused -->
 <div data-role="page" data-theme="a" id="evolv"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
@@ -2102,10 +2141,10 @@
     <h2>Regus<br />
     <strong class="smallText">Commercial Office leasing</strong></h2>
 	<p>
-    Rollie Reis-Mather
+    Carrie Oman
     </p>
     <a href="tel:763-445-2502" data-role="button" data-icon="phone">763-445-2502</a>
-    <a href="mailto:Rollie.reis-mather@regus.com" target="_blank" data-role="button" data-icon="email">Rollie.reis-mather@regus.com</a>
+    <a href="mailto:carrie.oman@regus.com" target="_blank" data-role="button" data-icon="email">carrie.oman@regus.com</a>
 	<br />
 
     <!-- Email referral -->
@@ -2149,7 +2188,7 @@
 
 
 
-<!-- Country Financial -->
+<!-- Unused -->
 <div data-role="page" data-theme="a" id="countryfinancial"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
@@ -2358,24 +2397,7 @@
     </form><!-- /email referral -->
 	<br />
     
-    <!-- Get the Cundy & Martin app -->
-    <a id="sendAppBtn3" href="" target="_blank" data-role="button" data-icon="email">Get the Cundy &amp; Martin app</a>
-    <form id="sendApp3" class="sendApp" method="post" data-ajax="false" style="display:none; padding-left:10px; padding-right:10px; padding-bottom:20px;">
-    <div data-role="fieldcontain" class="ui-hide-label">
-      <label for="Email">Email</label>
-      <input type="text" name="Email" id="Email" value="" placeholder="Email" class="required email" data-mini="true" />
-    </div>
-    <div data-role="fieldcontain" class="ui-hide-label">
-      <label for="Name">Your Name</label>
-      <input type="text" name="Name" id="Name" value="" placeholder="Your Name" data-mini="true" class="required" />
-    </div>
-    
-    <div data-role="controlgroup" data-type="horizontal" style="margin-left:-10px;">
-    <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-theme="a" data-icon="check" />
-    <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-theme="a" data-icon="alert">Help</a>
-    <a id="sendAppReset3" href="" data-role="button" data-inline="true" data-mini="true" data-theme="a" data-icon="delete">Clear</a>
-    </div>
-    </form><!-- /send this app -->
+    <a data-role="button" data-icon="info" target="_blank" onClick="window.open('http://cundyandmartin.com/app/', '_system', 'location=yes');">Get our app!</a>
     
 	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
     </div><!-- /block a -->
@@ -2700,6 +2722,11 @@
     <a id="emailRefResetNorthland5" href="" data-role="button" data-inline="true" data-mini="true" data-icon="delete">Clear</a>
     </div>
     </form><!-- /email referral -->
+    
+    <!--a href="http://riggscpa.app-platform.net" rel="external" data-role="button" data-icon="info" target="_blank">Get my app!</a-->
+    <!-- Phonegap external link
+    <a data-role="button" data-icon="info" target="_blank" onClick="window.open('http://riggscpa.app-platform.net', '_system', 'location=yes');">Get my app!</a>
+    -->
     
 	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
     </div><!-- /block a -->
@@ -3269,6 +3296,8 @@
     <a id="emailRefResetNorthland12" href="" data-role="button" data-inline="true" data-mini="true" data-icon="delete">Clear</a>
     </div>
     </form><!-- /email referral -->
+    
+    <a data-role="button" data-icon="info" target="_blank" onClick="window.open('http://handymantwincities.app-platform.net', '_system', 'location=yes');">Get my app!</a>
     
 	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
     </div><!-- /block a -->
@@ -4023,8 +4052,8 @@
 
 
 
-<!-- Unused -->
-<div data-role="page" data-theme="a" id="marudas"> 
+<!-- Quality Insurance Service -->
+<div data-role="page" data-theme="a" id="qualityIns"> 
   <div data-role="header" data-theme="a" class="center">
     <img src="img/logo.png" alt="logo">
     <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
@@ -4054,13 +4083,13 @@
 
 <div class="container_12">
     <div class="grid_6 ui-block960-a">
-    <h2>Marudas<br />
-    <strong class="smallText">Promotional Products</strong></h2>
+    <h2>Quality Insurance Service<br />
+    <strong class="smallText">Insurance</strong></h2>
 	<p>
-    Tom Schultz
+    Drew Bain
     </p>
-    <a href="tel:651-697-7851" data-role="button" data-icon="phone">651-697-7851</a>
-    <a href="mailto:tschultz@marudas.com" target="_blank" data-role="button" data-icon="email">tschultz@marudas.com</a>
+    <a href="tel:651-489-1347" data-role="button" data-icon="phone">651-489-1347</a>
+    <a href="mailto:drew@qualityinsuranceservice.com" target="_blank" data-role="button" data-icon="email">drew@qualityinsuranceservice.com</a>
     <br />
     
     <!-- Email referral -->
@@ -4409,6 +4438,87 @@
     <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-icon="check" />
     <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-icon="alert">Help</a>
     <a id="emailRefResetRosedale8" href="" data-role="button" data-inline="true" data-mini="true" data-icon="delete">Clear</a>
+    </div>
+    </form><!-- /email referral -->
+    
+	<a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="back" data-transition="slide">Back</a>
+    </div><!-- /block a -->
+</div><!-- /container -->
+</div><!-- /content -->  
+
+<div data-role="footer" data-theme="a">
+    <div class="footerText">
+        <p><script>
+            copyright=new Date(); update=copyright.getFullYear(); document.write("&nbsp;Copyright &copy; "+ update + " Network Unlimited");
+        </script></p>
+    </div>
+</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<!-- Johnston Martineau -->
+<div data-role="page" data-theme="a" id="johnston"> 
+  <div data-role="header" data-theme="a" class="center">
+    <img src="img/logo.png" alt="logo">
+    <a href="#help" data-rel="popup" data-position-to="window" data-transition="pop" data-icon="alert" class="ui-btn-right">Help</a>
+  </div>
+  
+<div data-role="content">
+    <!-- Help Popup-->
+    <div data-role="popup" id="help" data-overlay-theme="b" data-theme="a" style="max-width:500px;" class="ui-corner-all help">
+        <div data-role="header" data-theme="a" class="center">
+            <img src="img/logo2.png" alt="logo">
+        </div>
+        <div data-role="content" class="help">	
+            <h2>How does this work?</h2>
+            <p><strong>Send a referral</strong><br>
+            Tap the &quot;Email Referral&quot; button and enter the email address of the person you want to refer into the &quot;Referral Email&quot; field, enter your name into the &quot;Your Name&quot; field and if you would like to include any other information enter it into the &quot;Message&quot; field. Once you are done tap the &quot;Submit&quot; button and an email will be sent to the email address provided. An email alert will also be sent to 
+            <!---->Network Unlimited for tracking purposes.</p>
+            <p><strong>Send this app</strong><br>
+            Tap the &quot;Send this app&quot; button and enter the email address of the person you want to send the app into the &quot;Email&quot; field and enter your name into the &quot;Your Name&quot; field. Once you are done tap the &quot;Submit&quot; button and an email will a link to the apps Landing Page be sent to the email address provided. An email alert will also be sent to 
+            <!---->Network Unlimited for tracking purposes.</p>
+    		<p><strong>Get Your Own App</strong><br>
+   		    Tap the &quot;Get your own app!&quot; button and enter the email address of the person interested in getting more information about apps from App-Platform.net in the &quot;Email&quot; field. Once you are done tap the &quot;Submit&quot; button and a representative of App-Platform.net will be in touch.</p>
+        </div>
+        <div data-role="footer" class="center">
+            <a href="#" data-role="button" data-inline="true" data-theme="a" data-rel="back" data-icon="delete" style="margin-top:10px; margin-bottom:10px;">Close Window</a>
+        </div>
+    </div><!-- /help popup -->
+
+<div class="container_12">
+    <div class="grid_6 ui-block960-a">
+    <h2>johnston | martineau<br />
+    <strong class="smallText">attorneys at law</strong></h2>
+	<p>
+    Christopher A. Johnston
+    </p>
+    <a href="tel:651-269-8463" data-role="button" data-icon="phone">651-269-8463</a>
+    <a href="mailto:cjohnston@jm-leagal.com" target="_blank" data-role="button" data-icon="email">cjohnston@jm-leagal.com</a>
+    <br />
+    
+    <!-- Email referral -->
+    <a id="emailRefBtnRosedale9" href="" target="_blank" data-role="button" data-icon="email">Email Referral</a>
+    <form id="Rosedale9" class="EmailReferral" method="post" data-ajax="false" style="display:none; padding-left:10px; padding-right:10px; padding-bottom:20px;">
+    <div data-role="fieldcontain" class="ui-hide-label">
+      <label for="Email">Referral Email</label>
+      <input type="text" name="Email" id="Email" value="" placeholder="Referral Email" class="required email" data-mini="true" />
+    </div>
+    <div data-role="fieldcontain" class="ui-hide-label">
+      <label for="Name">Your Name</label>
+      <input type="text" name="Name" id="Name" value="" placeholder="Your Name" data-mini="true" class="required" />
+    </div>
+    <div data-role="fieldcontain" class="ui-hide-label">
+      <label for="Email2">Your Email (optional)</label>
+      <input type="text" name="Email2" id="Email2" value="" placeholder="Your Email (optional)" class="email2" data-mini="true" />
+    </div>
+    <label for="Message"><span class="smallText">Message (optional)</span></label>
+    <textarea name="Message" id="Message" style="background:#ffffff;" data-mini="true"></textarea>
+    
+    <div data-role="controlgroup" data-type="horizontal" style="margin-left:-10px;">
+    <input type="submit" id="post_submit" name="submit" value="Submit" class="submit-value" data-inline="true" data-mini="true" data-icon="check" />
+    <a href="#help" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" data-mini="true" data-icon="alert">Help</a>
+    <a id="emailRefResetRosedale9" href="" data-role="button" data-inline="true" data-mini="true" data-icon="delete">Clear</a>
     </div>
     </form><!-- /email referral -->
     
