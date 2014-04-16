@@ -45,6 +45,8 @@ $(function() {$("#emailRefBtnEagan13").toggle(function(){$("#Eagan13").show();},
 $(function() {$('#emailRefResetEagan13').click( function() { $("#Eagan13")[0].reset(); });});
 $(function() {$("#emailRefBtnEagan14").toggle(function(){$("#Eagan14").show();},function(){$("#Eagan14").hide(); $("#Eagan14")[0].reset();});});
 $(function() {$('#emailRefResetEagan14').click( function() { $("#Eagan14")[0].reset(); });});
+$(function() {$("#emailRefBtnEagan15").toggle(function(){$("#Eagan15").show();},function(){$("#Eagan15").hide(); $("#Eagan15")[0].reset();});});
+$(function() {$('#emailRefResetEagan15').click( function() { $("#Eagan15")[0].reset(); });});
 <!-- Email referral buttons Northland -->
 $(function() {$("#emailRefBtnNorthland1").toggle(function(){$("#Northland1").show();},function(){$("#Northland1").hide(); $("#Northland1")[0].reset();});});
 $(function() {$('#emailRefResetNorthland1').click( function() { $("#Northland1")[0].reset(); });});
@@ -82,6 +84,8 @@ $(function() {$("#emailRefBtnNorthland17").toggle(function(){$("#Northland17").s
 $(function() {$('#emailRefResetNorthland17').click( function() { $("#Northland17")[0].reset(); });});
 $(function() {$("#emailRefBtnNorthland18").toggle(function(){$("#Northland18").show();},function(){$("#Northland18").hide(); $("#Northland18")[0].reset();});});
 $(function() {$('#emailRefResetNorthland18').click( function() { $("#Northland18")[0].reset(); });});
+$(function() {$("#emailRefBtnNorthland19").toggle(function(){$("#Northland19").show();},function(){$("#Northland19").hide(); $("#Northland19")[0].reset();});});
+$(function() {$('#emailRefResetNorthland19').click( function() { $("#Northland19")[0].reset(); });});
 <!-- Email referral buttons Rosedale -->
 $(function() {$("#emailRefBtnRosedale1").toggle(function(){$("#Rosedale1").show();},function(){$("#Rosedale1").hide(); $("#Rosedale1")[0].reset();});});
 $(function() {$('#emailRefResetRosedale1').click( function() { $("#Rosedale1")[0].reset(); });});
@@ -462,7 +466,24 @@ $(function() {
         }
     });
 });     
-
+<!-- Email Referrals Eagan 15 -->
+$(function() {
+    $( "#Eagan15" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/eagan15.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
 
 
 <!-- Email Referrals Maple Grove 1 -->
@@ -663,7 +684,24 @@ $(function() {
         }
     });
 });     
-
+<!-- Email Referrals Maple Grove 12 -->
+$(function() {
+    $( "#MapleGrove12" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/MapleGrove12.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
 
 
 <!-- Email Referrals Northland 1 -->
@@ -990,7 +1028,24 @@ $(function() {
         }
     });
 });     
-
+<!-- Email Referrals Northland 19 -->
+$(function() {
+    $( "#Northland19" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Northland19.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
 
 
 <!-- Email Referrals Rosedale 1 -->
@@ -1128,6 +1183,42 @@ $(function() {
                 $.ajax({
                 type: "POST",
                 url: "http://app-platform.net/networkunlimited/php/Rosedale8.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals Rosedale 9 -->
+$(function() {
+    $( "#Rosedale9" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Rosedale9.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals Rosedale 10 -->
+$(function() {
+    $( "#Rosedale10" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Rosedale10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
