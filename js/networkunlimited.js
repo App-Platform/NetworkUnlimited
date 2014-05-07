@@ -1228,3 +1228,39 @@ $(function() {
         }
     });
 });     
+<!-- Email Referrals Rosedale 10 -->
+$(function() {
+    $( "#Rosedale11" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Rosedale11.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals Rosedale 10 -->
+$(function() {
+    $( "#Rosedale12" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/Rosedale12.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
