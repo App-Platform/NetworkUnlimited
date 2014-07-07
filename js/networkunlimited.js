@@ -136,6 +136,31 @@ $(function() {$("#emailRefBtnMapleGrove11").toggle(function(){$("#MapleGrove11")
 $(function() {$('#emailRefResetMapleGrove11').click( function() { $("#MapleGrove11")[0].reset(); });});
 $(function() {$("#emailRefBtnMapleGrove12").toggle(function(){$("#MapleGrove12").show();},function(){$("#MapleGrove12").hide(); $("#MapleGrove12")[0].reset();});});
 $(function() {$('#emailRefResetMapleGrove12').click( function() { $("#MapleGrove12")[0].reset(); });});
+<!-- Email referral buttons South Valley -->
+$(function() {$("#emailRefBtnSValley1").toggle(function(){$("#SValley1").show();},function(){$("#SValley1").hide(); $("#SValley1")[0].reset();});});
+$(function() {$('#emailRefResetSValley1').click( function() { $("#SValley1")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley2").toggle(function(){$("#SValley2").show();},function(){$("#SValley2").hide(); $("#SValley2")[0].reset();});});
+$(function() {$('#emailRefReseSValley2').click( function() { $("#SValley2")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley3").toggle(function(){$("#SValley3").show();},function(){$("#SValley3").hide(); $("#SValley3")[0].reset();});});
+$(function() {$('#emailRefResetSValley3').click( function() { $("#MSValley3")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley4").toggle(function(){$("#SValley4").show();},function(){$("#SValley4").hide(); $("#SValley4")[0].reset();});});
+$(function() {$('#emailRefResetSValley4').click( function() { $("#SValley4")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley5").toggle(function(){$("#SValley5").show();},function(){$("#SValley5").hide(); $("#SValley5")[0].reset();});});
+$(function() {$('#emailRefResetSValley5').click( function() { $("#SValley5")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley6").toggle(function(){$("#SValley6").show();},function(){$("#SValley6").hide(); $("#SValley6")[0].reset();});});
+$(function() {$('#emailRefResetSValley6').click( function() { $("#SValley6")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley7").toggle(function(){$("#SValley7").show();},function(){$("#SValley7").hide(); $("#SValley7")[0].reset();});});
+$(function() {$('#emailRefResetSValley7').click( function() { $("#SValley7")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley8").toggle(function(){$("#SValley8").show();},function(){$("#SValley8").hide(); $("#SValley8")[0].reset();});});
+$(function() {$('#emailRefResetSValley8').click( function() { $("#SValley8")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley9").toggle(function(){$("#SValley9").show();},function(){$("#SValley9").hide(); $("#SValley9")[0].reset();});});
+$(function() {$('#emailRefResetSValley9').click( function() { $("#SValley9")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley10").toggle(function(){$("#SValley10").show();},function(){$("#SValley10").hide(); $("#SValley10")[0].reset();});});
+$(function() {$('#emailRefResetSValley10').click( function() { $("#SValley10")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley11").toggle(function(){$("#SValley11").show();},function(){$("#SValley11").hide(); $("#SValley11")[0].reset();});});
+$(function() {$('#emailRefResetSValley11').click( function() { $("#SValley11")[0].reset(); });});
+$(function() {$("#emailRefBtnSValley12").toggle(function(){$("#SValley12").show();},function(){$("#SValley12").hide(); $("#SValley12")[0].reset();});});
+$(function() {$('#emailRefResetSValley12').click( function() { $("#SValley12")[0].reset(); });});
 
 
 <!-- Email Referral Validation App-Platform -->
@@ -1264,3 +1289,223 @@ $(function() {
         }
     });
 });     
+
+
+<!-- Email Referrals South Valley 1 -->
+$(function() {
+    $( "#SValley1" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley1.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 2 -->
+$(function() {
+    $( "#SValley2" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley2.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 3 -->
+$(function() {
+    $( "#SValley3" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley3.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 4 -->
+$(function() {
+    $( "#SValley4" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley4.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 5 -->
+$(function() {
+    $( "#SValley5" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley5.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 6 -->
+$(function() {
+    $( "#SValley6" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley6.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 7 -->
+$(function() {
+    $( "#SValley7" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley7.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 8 -->
+$(function() {
+    $( "#SValley8" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley8.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 9 -->
+$(function() {
+    $( "#SValley9" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley9.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 10 -->
+$(function() {
+    $( "#SValley10" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley10.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 11 -->
+$(function() {
+    $( "#SValley11" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley11.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+<!-- Email Referrals South Valley 12 -->
+$(function() {
+    $( "#SValley12" ).validate({
+        submitHandler: function(form) {
+           var data= $(form).serialize()
+        
+                $.ajax({
+                type: "POST",
+                url: "http://app-platform.net/networkunlimited/php/SValley12.php",
+                data: data,
+                success: function(){
+                    $(form).fadeOut();
+                }
+                });
+            return false;
+        }
+    });
+});     
+
+
