@@ -1253,7 +1253,7 @@ $(function() {
         }
     });
 });     
-<!-- Email Referrals Rosedale 10 -->
+<!-- Email Referrals Rosedale 11 -->
 $(function() {
     $( "#Rosedale11" ).validate({
         submitHandler: function(form) {
@@ -1271,7 +1271,7 @@ $(function() {
         }
     });
 });     
-<!-- Email Referrals Rosedale 10 -->
+<!-- Email Referrals Rosedale 12 -->
 $(function() {
     $( "#Rosedale12" ).validate({
         submitHandler: function(form) {
