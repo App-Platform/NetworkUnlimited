@@ -171,7 +171,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/emailReferral.php",
+                url: "http://networkunlimited.app-platform.net/php/emailReferral.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -190,7 +190,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/sendApp.php",
+                url: "http://networkunlimited.app-platform.net/php/sendApp.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -209,7 +209,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/send_app-platfrom.php",
+                url: "http://networkunlimited.app-platform.net/php/send_app-platfrom.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -228,7 +228,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/getYourOwnApp.php",
+                url: "http://networkunlimited.app-platform.net/php/getYourOwnApp.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -247,7 +247,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan1.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan1.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -265,7 +265,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan2.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan2.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -283,7 +283,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan3.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan3.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -301,7 +301,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan4.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan4.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -319,7 +319,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan5.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan5.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -337,7 +337,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan6.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan6.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -355,7 +355,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan7.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan7.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -373,7 +373,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan8.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan8.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -391,7 +391,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan9.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan9.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -409,7 +409,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan10.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -427,7 +427,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan11.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan11.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -445,7 +445,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan12.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan12.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -463,7 +463,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan13.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan13.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -481,7 +481,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan14.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan14.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -499,7 +499,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/eagan15.php",
+                url: "http://networkunlimited.app-platform.net/php/eagan15.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -519,7 +519,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove1.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove1.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -537,7 +537,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove2.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove2.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -555,7 +555,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove3.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove3.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -573,7 +573,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove4.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove4.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -591,7 +591,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove5.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove5.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -609,7 +609,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove6.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove6.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -627,7 +627,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove7.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove7.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -645,7 +645,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove8.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove8.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -663,7 +663,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove9.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove9.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -681,7 +681,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove10.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -699,7 +699,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove11.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove11.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -717,7 +717,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/MapleGrove12.php",
+                url: "http://networkunlimited.app-platform.net/php/MapleGrove12.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -737,7 +737,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland1.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland1.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -755,7 +755,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland2.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland2.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -773,7 +773,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland3.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland3.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -791,7 +791,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland4.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland4.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -809,7 +809,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland5.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland5.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -827,7 +827,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland6.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland6.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -845,7 +845,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland7.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland7.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -863,7 +863,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland8.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland8.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -881,7 +881,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland9.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland9.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -899,7 +899,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland10.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -917,7 +917,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland11.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland11.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -935,7 +935,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland12.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland12.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -953,7 +953,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland13.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland13.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -971,7 +971,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland14.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland14.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -989,7 +989,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland15.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland15.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1007,7 +1007,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland16.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland16.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1025,7 +1025,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland17.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland17.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1043,7 +1043,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland18.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland18.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1061,7 +1061,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Northland19.php",
+                url: "http://networkunlimited.app-platform.net/php/Northland19.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1081,7 +1081,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale1.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale1.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1099,7 +1099,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale2.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale2.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1117,7 +1117,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale3.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale3.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1135,7 +1135,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale4.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale4.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1153,7 +1153,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale5.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale5.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1171,7 +1171,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale6.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale6.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1189,7 +1189,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale7.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale7.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1207,7 +1207,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale8.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale8.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1225,7 +1225,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale9.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale9.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1243,7 +1243,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale10.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1261,7 +1261,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale11.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale11.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1279,7 +1279,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/Rosedale12.php",
+                url: "http://networkunlimited.app-platform.net/php/Rosedale12.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1299,7 +1299,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley1.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley1.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1317,7 +1317,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley2.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley2.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1335,7 +1335,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley3.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley3.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1353,7 +1353,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley4.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley4.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1371,7 +1371,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley5.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley5.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1389,7 +1389,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley6.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley6.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1407,7 +1407,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley7.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley7.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1425,7 +1425,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley8.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley8.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1443,7 +1443,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley9.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley9.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1461,7 +1461,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley10.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley10.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1479,7 +1479,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley11.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley11.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
@@ -1497,7 +1497,7 @@ $(function() {
         
                 $.ajax({
                 type: "POST",
-                url: "http://app-platform.net/networkunlimited/php/SValley12.php",
+                url: "http://networkunlimited.app-platform.net/php/SValley12.php",
                 data: data,
                 success: function(){
                     $(form).fadeOut();
