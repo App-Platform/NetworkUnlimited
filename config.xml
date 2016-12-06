@@ -34,7 +34,7 @@
 	<gap:splash src="iconsAndroid/android-startup-image-720x1280.png" gap:platform="android" gap:density="xhdpi" />
 	<gap:splash src="iconsAndroid/android-startup-image-720x1280.png" gap:platform="android" gap:density="xxhdpi" />
 	
-	<gap:plugin name="org.apache.cordova.device" source="pgb" spec="0.3.0" />
-	<gap:plugin name="org.apache.cordova.InAppBrowser" source="pgb" spec="0.6.0" />
+	<gap:plugin name="org.apache.cordova.InAppBrowser" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 
 </widget>
